@@ -86,6 +86,18 @@
             .character-right {
                 left: auto;
             }
+
+            .testimonial-details .name {
+                font-size: 1.1rem;
+            }
+
+            .testimonial-details .testimonial-location {
+                font-size: 0.9rem;
+            }
+
+            .card-text img {
+                max-height: 250px;
+            }
         }
 
         .modal {
@@ -219,27 +231,27 @@
                     <li>
                         <a href="#about" class="nav-link rounded-0" data-bs-toggle="tooltip" data-bs-placement="right"
                             aria-label="Dashboard" data-bs-original-title="Dashboard">
-                            <iconify-icon icon="ic:round-person"></iconify-icon>
+                            <iconify-icon icon="carbon:game-console"></iconify-icon>
                         </a>
                     </li>
                      <li>
                         <a href="#resume" class="nav-link rounded-0" data-bs-toggle="tooltip" data-bs-placement="right"
                             aria-label="Orders" data-bs-original-title="Orders">
-                            <iconify-icon icon="ic:round-school"></iconify-icon>
+                            <iconify-icon icon="carbon:user-favorite"></iconify-icon>
                         </a>
                     </li> 
                     <li>
                         <a href="#portfolio" class="nav-link rounded-0" data-bs-toggle="tooltip"
                             data-bs-placement="right" aria-label="Products" data-bs-original-title="Products">
-                            <iconify-icon icon="ic:round-business-center"></iconify-icon>
+                            <iconify-icon icon="icon-park-solid:collect-picture"></iconify-icon>
                         </a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="#blog" class="nav-link rounded-0" data-bs-toggle="tooltip" data-bs-placement="right"
                             aria-label="Customers" data-bs-original-title="Customers">
-                            <iconify-icon icon="ic:round-menu-book"></iconify-icon>
+                            <iconify-icon icon="carbon:camera"></iconify-icon>
                         </a>
-                    </li>
+                    </li> -->
                     <!-- <li>
                         <a href="#contact" class="nav-link rounded-0" data-bs-toggle="tooltip" data-bs-placement="right"
                             aria-label="Customers" data-bs-original-title="Customers">
@@ -359,8 +371,8 @@
                                                             <img src="남범.png" alt="캐릭터 남캐 사진" height="450px;">
                                                         </p>
                                                         <div class="testimonial-details">
-                                                            <h4 class="name fw-bold m-0">남범이 이름</h4>
-                                                            <p class="testimonial-location">여긴 머냐~</p>
+                                                            <h4 class="name fw-bold m-0">수정중</h4>
+                                                            <p class="testimonial-location">수정중</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -380,8 +392,8 @@
                                                             <img src="여범.png" alt="캐릭터 남캐 사진" height="450px;">
                                                         </p>
                                                         <div class="testimonial-details">
-                                                            <h4 class="name fw-bold m-0">여범이 이름</h4>
-                                                            <p class="testimonial-location">여긴 머냐~</p>
+                                                            <h4 class="name fw-bold m-0">수정중</h4>
+                                                            <p class="testimonial-location">수정중</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -389,117 +401,161 @@
 
                                             </div>
                                         </div>
-
-
                                 </div>
-                             
                             </div>
-
-
-
                         </div>
-
-
                     </section>
 
+                    <hr class="mid-break my-2">
+
                     <section id="portfolio">
-
-
                         <div class="py-4 my-4 ">
-                            <h1 class="fw-bold mt-5">인장</h1>
-                        </div>
-
-                        <hr class="mid-break my-2">
-
-
-                        <div class="py-4 my-4 ">
+                            <h2 class="fw-bold pb-4">인장</h2>
 
                             <div class="mb-5">
                                 <p>
                                     <button class="filter-button active" data-filter="*">전체</button>
+                                    <button class="filter-button" data-filter=".package">선물</button>
                                     <button class="filter-button" data-filter=".branding">커미션(남)</button>
                                     <button class="filter-button" data-filter=".tshirt">커미션(여)</button>
-                                    <button class="filter-button" data-filter=".package">선물</button>
-                                    <!-- <button class="filter-button" data-filter=".website">Website</button>
-                                    <button class="filter-button" data-filter=".poster">Poster</button> -->
+                                    <button class="filter-button" data-filter=".website">커미션(SD)</button>
+                                    <!-- <button class="filter-button" data-filter=".poster">Poster</button> -->
                                 </p>
                             </div>
 
 
                             <div class="isotope-container">
-                                <div class="item website col-md-4">
-
-
-                                    <a href="images/Rectangle 49.png" title="Boxed Water" class="image-link">
-
-                                        <img class="portfolio-img" src="images/Rectangle 49.png" alt="image">
+                                <div class="item package col-md-4">
+                                    <a href="태벽님2_20250507.png" title="Boxed Water" class="image-link">
+                                        <img class="portfolio-img" src="태벽님2_20250507.png" alt="image">
                                         <div class="description">
-                                            <h4>Boxed Water</h4>
-                                        </div>
-
-                                    </a>
-
-                                </div>
-
-                                <div class="item branding col-md-4">
-                                    <a href="images/Rectangle 52.png" title="Boxed Water" class="image-link">
-                                        <img class="portfolio-img" src="images/Rectangle 52.png" alt="image">
-                                        <div class="description">
-                                            <h4>Verve Coffee</h4>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="item tshirt col-md-4">
-                                    <a href="images/Rectangle 51.png" title="Boxed Water" class="image-link">
-                                        <img class="portfolio-img" src="images/Rectangle 51.png" alt="image">
-                                        <div class="description">
-                                            <h4>Childern T-shirt</h4>
+                                            <h4>태벽님</h4>
                                         </div>
                                     </a>
                                 </div>
 
                                 <div class="item package col-md-4">
-                                    <a href="부리님20231225.jpg" title="Boxed Water" class="image-link">
-                                        <img class="portfolio-img" src="부리님20231225.jpg" alt="image">
+                                    <a href="릴케님2_20250405.png" title="Boxed Water" class="image-link">
+                                        <img class="portfolio-img" src="릴케님2_20250405.png" alt="image">
                                         <div class="description">
-                                            <h4>부리님20231225</h4>
+                                            <h4>릴케님</h4>
                                         </div>
                                     </a>
                                 </div>
 
-                                <!-- <div class="item website col-md-4">
-                                    <a href="images/Rectangle 54.png" title="Boxed Water" class="image-link">
-                                        <img class="portfolio-img" src="images/Rectangle 54.png" alt="image">
+                                <div class="item package col-md-4">
+                                    <a href="릴케님_20250405.png" title="Boxed Water" class="image-link">
+                                        <img class="portfolio-img" src="릴케님_20250405.png" alt="image">
                                         <div class="description">
-                                            <h4>Box Packaging</h4>
+                                            <h4>릴케님</h4>
                                         </div>
                                     </a>
-                                </div> -->
+                                </div>
 
-                                <!-- <div class="item poster col-md-4">
-                                    <a href="images/Rectangle 53.png" title="Boxed Water" class="image-link">
-                                        <img class="portfolio-img" src="images/Rectangle 53.png" alt="image">
+                                <div class="item package col-md-4">
+                                    <a href="봄짠(슈)님_20250323.jpg" title="Boxed Water" class="image-link">
+                                        <img class="portfolio-img" src="봄짠(슈)님_20250323.jpg" alt="image">
                                         <div class="description">
-                                            <h4>Coco Oil</h4>
+                                            <h4>슈님</h4>
                                         </div>
                                     </a>
-                                </div> -->
+                                </div>
 
-                                <div class="item tshirt col-md-4">
-                                    <a href="images/Rectangle 55.png" title="Boxed Water" class="image-link">
-                                        <img class="portfolio-img" src="images/Rectangle 55.png" alt="image">
+                                <div class="item package col-md-4">
+                                    <a href="투구님20250216.jpg" title="Boxed Water" class="image-link">
+                                        <img class="portfolio-img" src="투구님20250216.jpg" alt="image">
                                         <div class="description">
-                                            <h4>Graphic T-shirt</h4>
+                                            <h4>투구님</h4>
                                         </div>
                                     </a>
                                 </div>
 
                                 <div class="item branding col-md-4">
-                                    <a href="images/Rectangle 57.png" title="Boxed Water" class="image-link">
-                                        <img class="portfolio-img" src="images/Rectangle 57.png" alt="image">
+                                    <a href="은중님_20241207.jpg" title="Boxed Water" class="image-link">
+                                        <img class="portfolio-img" src="은중님_20241207.jpg" alt="image">
                                         <div class="description">
-                                            <h4>Paper Cup</h4>
+                                            <h4>은중님 CM</h4>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="item tshirt col-md-4">
+                                    <a href="산님_20241127.png" title="Boxed Water" class="image-link">
+                                        <img class="portfolio-img" src="산님_20241127.png" alt="image">
+                                        <div class="description">
+                                            <h4>산님 CM</h4>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="item branding col-md-4">
+                                    <a href="산님_20241111.png" title="Boxed Water" class="image-link">
+                                        <img class="portfolio-img" src="산님_20241111.png" alt="image">
+                                        <div class="description">
+                                            <h4>산님 CM</h4>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="item tshirt col-md-4">
+                                    <a href="산님_20241108.png" title="Boxed Water" class="image-link">
+                                        <img class="portfolio-img" src="산님_20241108.png" alt="image">
+                                        <div class="description">
+                                            <h4>산님 CM</h4>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="item package col-md-4">
+                                    <a href="태벽님_20241101.png" title="Boxed Water" class="image-link">
+                                        <img class="portfolio-img" src="태벽님_20241101.png" alt="image">
+                                        <div class="description">
+                                            <h4>태벽님</h4>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="item website col-md-4">
+                                    <a href="엑사님_20241011.png" title="Boxed Water" class="image-link">
+                                        <img class="portfolio-img" src="엑사님_20241011.png" alt="image">
+                                        <div class="description">
+                                            <h4>엑사님 CM</h4>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="item branding col-md-4">
+                                    <a href="투구님_20240912.png" title="Boxed Water" class="image-link">
+                                        <img class="portfolio-img" src="투구님_20240912.png" alt="image">
+                                        <div class="description">
+                                            <h4>투구님 CM</h4>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="item tshirt col-md-4">
+                                    <a href="투구님2_20240912.jpg" title="Boxed Water" class="image-link">
+                                        <img class="portfolio-img" src="투구님2_20240912.jpg" alt="image">
+                                        <div class="description">
+                                            <h4>투구님 CM</h4>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="item branding col-md-4">
+                                    <a href="산님_20240904.png" title="Boxed Water" class="image-link">
+                                        <img class="portfolio-img" src="산님_20240904.png" alt="image">
+                                        <div class="description">
+                                            <h4>산님 CM</h4>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="item tshirt col-md-4">
+                                    <a href="산님_20240830.png" title="Boxed Water" class="image-link">
+                                        <img class="portfolio-img" src="산님_20240830.png" alt="image">
+                                        <div class="description">
+                                            <h4>산님 CM</h4>
                                         </div>
                                     </a>
                                 </div>
@@ -508,10 +564,111 @@
                                     <a href="헬리님20240505.jpg" title="Boxed Water" class="image-link">
                                         <img class="portfolio-img" src="헬리님20240505.jpg" alt="image">
                                         <div class="description">
-                                            <h4>헬리님20240505</h4>
+                                            <h4>헬리님</h4>
                                         </div>
                                     </a>
                                 </div>
+
+                                <div class="item package col-md-4">
+                                    <a href="감자님_여캐_20240820.jpg" title="Boxed Water" class="image-link">
+                                        <img class="portfolio-img" src="감자님_여캐_20240820.jpg" alt="image">
+                                        <div class="description">
+                                            <h4>감자님</h4>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="item website col-md-4">
+                                    <a href="엘레페님_20240804.png" title="Boxed Water" class="image-link">
+                                        <img class="portfolio-img" src="엘레페님_20240804.png" alt="image">
+                                        <div class="description">
+                                            <h4>엘레페님 CM</h4>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="item website col-md-4">
+                                    <a href="엘레페님2_20240804.png" title="Boxed Water" class="image-link">
+                                        <img class="portfolio-img" src="엘레페님2_20240804.png" alt="image">
+                                        <div class="description">
+                                            <h4>엘레페님 CM</h4>
+                                        </div>
+                                    </a>
+                                </div>
+                                
+                                <div class="item website col-md-4">
+                                    <a href="킷코님1_20240417.png" title="Boxed Water" class="image-link">
+                                        <img class="portfolio-img" src="킷코님1_20240417.png" alt="image">
+                                        <div class="description">
+                                            <h4>킷코님 CM</h4>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="item website col-md-4">
+                                    <a href="킷코님2_20240417.png" title="Boxed Water" class="image-link">
+                                        <img class="portfolio-img" src="킷코님2_20240417.png" alt="image">
+                                        <div class="description">
+                                            <h4>킷코님 CM</h4>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="item package col-md-4">
+                                    <a href="감자님_남캐_20240224.jpg" title="Boxed Water" class="image-link">
+                                        <img class="portfolio-img" src="감자님_남캐_20240224.jpg" alt="image">
+                                        <div class="description">
+                                            <h4>감자님</h4>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="item package col-md-4">
+                                    <a href="오뤼님2_20240322.jpg" title="Boxed Water" class="image-link">
+                                        <img class="portfolio-img" src="오뤼님2_20240322.jpg" alt="image">
+                                        <div class="description">
+                                            <h4>오뤼님</h4>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="item branding col-md-4">
+                                    <a href="호두눈애님_20240218.jpg" title="Boxed Water" class="image-link">
+                                        <img class="portfolio-img" src="호두눈애님_20240218.jpg" alt="image">
+                                        <div class="description">
+                                            <h4>호두눈애님 CM</h4>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="item tshirt col-md-4">
+                                    <a href="둣둥님_20240226.jpg" title="Boxed Water" class="image-link">
+                                        <img class="portfolio-img" src="둣둥님_20240226.jpg" alt="image">
+                                        <div class="description">
+                                            <h4>둣둥님 CM</h4>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="item package col-md-4">
+                                    <a href="부리님20231225.jpg" title="Boxed Water" class="image-link">
+                                        <img class="portfolio-img" src="부리님20250507.png" alt="image">
+                                        <div class="description">
+                                            <h4>부리님</h4>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div class="item package col-md-4">
+                                    <a href="부리님20231203.jpg" title="Boxed Water" class="image-link">
+                                        <img class="portfolio-img" src="부리님20231203.jpg" alt="image">
+                                        <div class="description">
+                                            <h4>부리님</h4>
+                                        </div>
+                                    </a>
+                                </div>
+
+                               
 
                             </div>
 
@@ -519,44 +676,23 @@
 
                     </section>
 
-                    <section id="blog">
-
+                    <!-- <section id="blog">
                         <div class="py-4 my-4 ">
                             <h1 class="fw-bold mt-5">스크린샷</h1>
                         </div>
-
                         <hr class="mid-break my-2">
-
-
                         <div class="py-4 my-4 ">
-
                             <div class="mb-5">
                                 <p>
                                     <button class="filter-button active" data-filter="*">전체</button>
+                                    <button class="filter-button" data-filter=".package">선물</button>
                                     <button class="filter-button" data-filter=".branding">커미션(남)</button>
                                     <button class="filter-button" data-filter=".tshirt">커미션(여)</button>
-                                    <button class="filter-button" data-filter=".package">선물</button>
-                                    <!-- <button class="filter-button" data-filter=".website">Website</button>
-                                    <button class="filter-button" data-filter=".poster">Poster</button> -->
                                 </p>
                             </div>
 
 
                             <div class="isotope-container">
-                                <div class="item website col-md-4">
-
-
-                                    <a href="images/Rectangle 49.png" title="Boxed Water" class="image-link">
-
-                                        <img class="portfolio-img" src="images/Rectangle 49.png" alt="image">
-                                        <div class="description">
-                                            <h4>Boxed Water</h4>
-                                        </div>
-
-                                    </a>
-
-                                </div>
-
                                 <div class="item branding col-md-4">
                                     <a href="images/Rectangle 52.png" title="Boxed Water" class="image-link">
                                         <img class="portfolio-img" src="images/Rectangle 52.png" alt="image">
@@ -565,75 +701,9 @@
                                         </div>
                                     </a>
                                 </div>
-
-                                <div class="item tshirt col-md-4">
-                                    <a href="images/Rectangle 51.png" title="Boxed Water" class="image-link">
-                                        <img class="portfolio-img" src="images/Rectangle 51.png" alt="image">
-                                        <div class="description">
-                                            <h4>Childern T-shirt</h4>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="item package col-md-4">
-                                    <a href="부리님20231225.jpg" title="Boxed Water" class="image-link">
-                                        <img class="portfolio-img" src="부리님20231225.jpg" alt="image">
-                                        <div class="description">
-                                            <h4>부리님20231225</h4>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <!-- <div class="item website col-md-4">
-                                    <a href="images/Rectangle 54.png" title="Boxed Water" class="image-link">
-                                        <img class="portfolio-img" src="images/Rectangle 54.png" alt="image">
-                                        <div class="description">
-                                            <h4>Box Packaging</h4>
-                                        </div>
-                                    </a>
-                                </div> -->
-
-                                <!-- <div class="item poster col-md-4">
-                                    <a href="images/Rectangle 53.png" title="Boxed Water" class="image-link">
-                                        <img class="portfolio-img" src="images/Rectangle 53.png" alt="image">
-                                        <div class="description">
-                                            <h4>Coco Oil</h4>
-                                        </div>
-                                    </a>
-                                </div> -->
-
-                                <div class="item tshirt col-md-4">
-                                    <a href="images/Rectangle 55.png" title="Boxed Water" class="image-link">
-                                        <img class="portfolio-img" src="images/Rectangle 55.png" alt="image">
-                                        <div class="description">
-                                            <h4>Graphic T-shirt</h4>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="item branding col-md-4">
-                                    <a href="images/Rectangle 57.png" title="Boxed Water" class="image-link">
-                                        <img class="portfolio-img" src="images/Rectangle 57.png" alt="image">
-                                        <div class="description">
-                                            <h4>Paper Cup</h4>
-                                        </div>
-                                    </a>
-                                </div>
-
-                                <div class="item package col-md-4">
-                                    <a href="헬리님20240505.jpg" title="Boxed Water" class="image-link">
-                                        <img class="portfolio-img" src="헬리님20240505.jpg" alt="image">
-                                        <div class="description">
-                                            <h4>헬리님20240505</h4>
-                                        </div>
-                                    </a>
-                                </div>
-
                             </div>
-
                         </div>
-
-                    </section>
+                    </section> -->
 
                     
 
